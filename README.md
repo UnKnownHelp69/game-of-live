@@ -1,15 +1,15 @@
 # Game of Life
 
-A C++ implementation of Conway's Game of Life with multiple rule variations.
+A C++ implementation of Conway's Game of Life with different rules.
 
-## ✨ Features
+## Features
 
-- **10+ Rule Sets**: Standard, HighLife, Life without Death, 34 Life, Freezing, Desert, Seeds, Maze, and more
+- **10 Rules**: Standard, HighLife, Life without Death, 34 Life, Freezing, Desert, Seeds, Maze, OnePeriodLife and Fractals.
 - **Dual Mode**: Quick start & manual configuration
 - **Cross-Platform**: Windows/Linux/macOS support
-- **Real-time Visualization**: Animated console display with generation counter
+- **Visualization**: Animated console display
 
-## 🎮 Rule Sets
+## Rule Sets
 
 | Rule | Name | Behavior |
 |------|------|----------|
@@ -24,7 +24,7 @@ A C++ implementation of Conway's Game of Life with multiple rule variations.
 | **B1/S1** | One Period | Fractal patterns |
 | **B1/S012345678** | Fractals | Tree-like growth |
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 g++ -o life main.cpp sleep_utils.cpp -std=c++11
